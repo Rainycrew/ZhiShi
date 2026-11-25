@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+
+# build outputs / installers
+dist/
+release/
+build/
+*.apk
+*.aab
+*.exe
+*.zip
+
+# Android build artifacts
+.gradle/
+local.properties
+capacitor-cordova-android-plugins/
+zhiapp/android/app/src/main/assets/public/
+
+# python
+__pycache__/
+*.pyc
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
