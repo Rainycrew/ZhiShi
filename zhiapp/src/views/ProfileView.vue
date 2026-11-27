@@ -258,6 +258,20 @@ usePageMotion(root);
   white-space: nowrap;
   transition: all 0.18s var(--ease-out);
 }
+  .nobox{
+     display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 15px;
+  border-radius: 13px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  color: var(--ink-2);
+  font-size: 13.5px;
+  font-weight: 650;
+  white-space: nowrap;
+  transition: all 0.18s var(--ease-out);
+  }
 
 .tabbar-btn:active {
   transform: scale(0.97);
