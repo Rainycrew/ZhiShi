@@ -71,7 +71,7 @@ We have **not yet conducted systematic assistive technology compatibility testin
 - Screen reader reading order and state announcements in complex interactions
 - Layout at high zoom levels
 - Completing all core flows using only a keyboard
-- **Official distribution is Windows-only**: the current official release is a Windows EXE “Quick Edition”. There is no official macOS or Linux binary distribution.
+- **Official distribution platforms**: the current official releases support Android and Windows x64. No official macOS or Linux binary distribution is currently provided.
 - **Non-Chinese interfaces**: the project is Chinese-first and the interface is currently Chinese-only. Other languages require secondary modification or localization and are not officially maintained.
 
 If you encounter a specific barrier, please report it using the process above. We will prioritize recording and evaluating it.
@@ -80,10 +80,10 @@ If you encounter a specific barrier, please report it using the process above. W
 
 The following environments have **not been formally verified** and are listed only based on development and usage so far:
 
-- **Official distribution**: Windows EXE “Quick Edition”. This is the only official binary release currently provided.
-- **Source-based usage**: ZhiSh is built with Vue. The source code can be run on macOS, Windows, and other platforms with a suitable environment, but this is not an official binary distribution and has not been formally verified.
+- **Official distribution**: Android and Windows x64. These are the official binary release targets currently provided.
+- **Source-based usage**: ZhiSh is built with Vue. The source code can be run on Windows, macOS, Linux, and other platforms with a suitable environment, but this is not an official binary distribution and has not been formally verified.
 - **Browsers** (when running from source): recent desktop versions of Chrome, Edge, Firefox, and Safari. These have not been formally tested.
-- **Operating systems**: Windows for the official EXE release; macOS and Linux may be possible via source-based usage, but are not officially verified.
+- **Operating systems**: Android and Windows x64 for official releases; macOS, Linux, and other platforms may be possible via source-based usage, but are not officially verified.
 - **Input methods**: keyboard and mouse; touch and voice input are **untested**.
 - **Assistive technology**: **no formal compatibility testing has been performed**. If you use a screen reader or other assistive technology, your feedback is especially valuable.
 - **Languages**: Chinese is the primary and currently the only officially supported interface language. Other languages are **not officially supported** and require secondary modification or localization.
